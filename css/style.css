@@ -1,0 +1,474 @@
+/*Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*<!--header section css start form here-->*/
+header{
+    width: 100%;
+	background-image: url(../img/banner/banner-2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-link{
+    color: white !important;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-link::before{
+	content: '';
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 2px;
+	width: 0%;
+	background: white;
+	transition: 0.5s ease-in-out;
+
+}
+.nav-link:hover::before{
+	width: 100%;
+	transition: 0.5s ease-in-out;
+}
+.nav-item{
+    margin-left: 78px;
+    position: relative;
+}
+.navbar{
+    margin-top: 7px;
+}
+.banner{
+    text-align: center;
+    top: 129px;
+    margin: 120px 0px;
+}
+.banner-text h1{
+    font-size: 52px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.banner-text p{
+    font-size: 30px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: 21px 0px 60px 0px;
+}
+.banner a i{
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    line-height: 53px;
+    border-radius: 100%;
+    background-color: #ffb233;
+}
+/*<!--header section css end form here-->*/
+/*  <!--About section css start form here--> */
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    text-align: center;
+    background-color: white;
+}
+.about h1{
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 55px;
+}
+.about h5{
+    font-size: 18px;
+    color: #818181;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin: 25px 0px;
+}
+.about p{
+    padding: 0px 162px;
+    font-size: 14px;
+    color: #9c9ca2;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.about ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.about ul li a i{
+    color: white;
+    font-size: 16px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border-radius: 100%;
+    background-color: #c6c6c5;
+    transition: ease-in-out 0.5s;
+}
+.about ul li a i:hover{
+    color: white;
+    background-color: #ffb233;
+    transition: ease-in-out 0.5s;
+}
+.about .btn button{
+    color: #51a351 !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    border: 2px solid #51a351;
+    padding: 19px 70px;
+    background: transparent;
+    margin-top: 15px;
+    transition: ease-in-out 0.5s;
+}
+.about .btn button:hover{
+    color: white !important;
+    background: #51a351;
+    transition: ease-in-out 0.5s;
+    border: 2px solid #51a351;
+}
+/*  <!--About section css end form here--> */
+/* <!--Suggest section css start form here--> */
+.suggest{
+    width: 100%;
+	text-align: center;
+	padding: 100px 0;
+	background-image: url(../img/banner/suggest.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.suggest h1{
+    font-size: 32px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+}
+.suggest a i{
+    color: white;
+    font-size: 37px;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    background-color: #ffb233;
+    transition: ease-in-out 0.5s;
+    border: 3px solid #ffb233;
+}
+ .suggest a i:hover{
+    color: white;
+    background-color: #ffb233;
+    transition: ease-in-out 0.5s;
+    border: 3px solid #7f6336;
+}
+.suggest p{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0px;
+}
+/* <!--Suggest section css end form here--> *
+/* <!--counter section css start form here--> */
+.counter-section{
+    width: 100%;
+    padding: 100px 0px;
+    text-align: center;
+    background-color: #f3f4ff;
+}
+.counter-section h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+}
+.counter-section .line{
+    height: 2px;
+	width: 50px;
+	background-color: green;
+	margin: 20px auto;
+}
+.counter-section p{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #9c9ca2;
+}
+/* <!--counter section css end form here--> */
+/* <!-- Portfolio section css start form here --> */
+.portfolio{
+    width: 100%;
+	text-align: center;
+	padding: 100px 0;
+}
+.portfolio h1{
+    font-size: 32px;
+    color: black;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+}
+
+.portfolio ul.filters{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.portfolio ul.filters > li{
+    list-style: none;
+    display: inline-block;
+}
+
+.portfolio ul.filters > li > a{
+    display: block;
+    color: #434e5e;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.portfolio ul.filters > li > a:hover{
+    background-color: #e6e9ed;
+}
+
+.portfolio ul.filters > li.active > a{
+    color: #fff;
+    background-color: #28bea8;
+}
+
+.portfolio .card{
+    position: relative;
+    margin-bottom: 50px;
+    color: #000;
+    border-radius: 0;
+    border: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: 1px 1px 1.5px rgba(0,0,0,0.075);
+}
+
+.portfolio .card-head{
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio .card-btn{
+    margin-bottom: -40px;
+    font-size: 0.9rem;
+    background-color: #fff;
+    color: #222;
+    border: 1px solid #eee;
+    border-radius: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.portfolio .card-btn:hover{
+    background-color: #28bea8;
+    color: #fff;
+}
+
+/* <!-- Portfolio section css end form here --> */
+/* <!--Testimonials section css start form here--> */
+.testimonials{
+    width: 100%;
+    padding: 100px 0px;
+    text-align: center;
+    background-image: url(../img/testimonial.png);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.testimonials h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: 'Open Sans', sans-serif;
+}
+.testimonials p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #9c9ca2;
+    line-height: 3;
+    padding: 31px 77px;
+}
+.testimonials h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: #1d1d1d;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 21px 0px 9px 0px;
+}
+.testimonials h6{
+    font-size: 17px;
+    font-weight: 400;
+    color: #9c9ca2;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 25px;
+}
+.owl-carousel .owl-item img {
+    width: 80px !important;
+    margin: 0 auto;
+}
+.owl-theme .owl-nav{
+    display: none;
+}
+/* <!--Testimonials section css end form here--> */
+/* <!-- Contacts section css start form here --> */
+.contacts{
+    width: 100%;
+    padding: 100px 0px 25px 0px;
+    background-image: url(../img/banner/footer.png);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.contacts .contact-me{
+    padding-left: 131px;
+}
+.contacts .contact-mail{
+    padding-left: 77px;
+}
+.contacts h5{
+    font-size: 32px;
+    letter-spacing: 3px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 35px;
+}
+.contacts p{
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.contacts a{
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.contacts .email{
+    font-size: 14px;
+    color: white;
+}
+.contacts h6{
+    font-size: 20px;
+    color: white;
+}
+.contacts .address p{
+    font-size: 14px;
+    color: white;
+    padding-top: 24px;
+}
+.contacts .skype p{
+    font-size: 14px;
+    color: white;
+}
+.contacts .tel p{
+    font-size: 14px;
+    color: white;
+    padding-top: 24px;
+}
+.contacts form{
+    margin: 40px auto;
+}
+.contacts form .form-row input{
+    padding: 5px 116px 5px 14px;
+    background: transparent;
+}
+.contacts form .form-control{
+    border-color: white !important;
+    margin-top: 20px;
+}
+.contacts form .form-control:focus {
+    border-color: #ffb233 !important;
+    box-shadow: none !important;
+}
+.contacts form textarea:focus {
+    border: 1px solid #ffb233 !important;
+}
+.contacts form .form-control::placeholder{
+    color: white;
+}
+.contacts form textarea::placeholder{
+    color: white;
+}
+textarea{
+    background: transparent !important;
+    border-color: white !important;
+}
+.form-control{
+    background: none !important;
+    color: white !important;
+}
+.send-message button{
+    padding: 15px 243px;
+	text-transform: uppercase;
+	font-weight: 600;
+	background: #51a351;
+	border: none;
+	border: 2px solid #51a351;
+	color: white;
+	border-radius: 5px;
+	letter-spacing: 2px;
+    margin: 20px auto;
+    transition: ease-in-out 0.5s;
+}
+.send-message button:hover{
+    background: #ffb233;
+    color: white;
+    border: 2px solid #ffb233;
+    transition: ease-in-out 0.5s;
+}
+form.send-message{
+	display: flex;
+    justify-content: center;
+}
+form .copyright p{
+	color: white;
+	display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* <!-- Contacts section css end form here --> */
